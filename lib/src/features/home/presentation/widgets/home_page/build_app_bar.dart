@@ -33,7 +33,7 @@ class BuildAppBar extends StatelessWidget {
               style: TextStyle(
                 fontSize: setFontSize(12),
                 fontWeight: FontWeight.w400,
-                color: Color(0xFFB7B7B7),
+                color: const Color(0xFFB7B7B7),
                 letterSpacing: setFontSize(0.12),
               ),
             ),
@@ -45,7 +45,7 @@ class BuildAppBar extends StatelessWidget {
                   style: TextStyle(
                     fontSize: setFontSize(14),
                     fontWeight: FontWeight.w600,
-                    color: Color(0xFFDDDDDD),
+                    color: const Color(0xFFDDDDDD),
                     letterSpacing: setFontSize(0.12),
                   ),
                 ),

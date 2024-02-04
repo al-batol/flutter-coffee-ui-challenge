@@ -27,7 +27,7 @@ class BuildParentChildText extends StatelessWidget {
           style: TextStyle(
             fontSize: setFontSize(12),
             fontWeight: FontWeight.w600,
-            color: Color(0xFF2F2D2C),
+            color: const Color(0xFF2F2D2C),
           ),
         ),
         SizedBox(height: spacing),
@@ -36,7 +36,7 @@ class BuildParentChildText extends StatelessWidget {
           style: TextStyle(
             fontSize: setFontSize(10),
             fontWeight: FontWeight.w400,
-            color: Color(0xFF9B9B9B),
+            color: const Color(0xFF9B9B9B),
           ),
         ),
       ],

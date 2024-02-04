@@ -1,9 +1,7 @@
 import 'package:coffee_shop_ui_challenge/src/core/common/utils/constants.dart';
 import 'package:coffee_shop_ui_challenge/src/core/common/utils/responsive_layout.dart';
 import 'package:coffee_shop_ui_challenge/src/core/common/widgets/item_chip_widget.dart';
-import 'package:coffee_shop_ui_challenge/src/core/common/widgets/medium_text.dart';
 import 'package:coffee_shop_ui_challenge/src/features/home/data/models/coffee_model.dart';
-import 'package:coffee_shop_ui_challenge/src/features/home/presentation/cubit/base_page/base_page_cubit.dart';
 import 'package:coffee_shop_ui_challenge/src/features/home/presentation/cubit/detail_page/detail_cubit.dart';
 import 'package:coffee_shop_ui_challenge/src/features/home/presentation/pages/order_page.dart';
 import 'package:flutter/material.dart';
@@ -52,7 +50,7 @@ class BuildBottomNavBar extends StatelessWidget {
                   style: TextStyle(
                     fontSize: setFontSize(10),
                     fontWeight: FontWeight.w400,
-                    color: Color(0xFF9B9B9B),
+                    color: const Color(0xFF9B9B9B),
                   ),
                 ),
                 SizedBox(height: setHeight(8)),

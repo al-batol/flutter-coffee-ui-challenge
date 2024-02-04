@@ -22,7 +22,7 @@ class BuildDeliverPickUp extends StatelessWidget {
       padding: EdgeInsets.all(setWidth(4)),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(14),
-        color: Color(0xFFF2F2F2),
+        color: const Color(0xFFF2F2F2),
       ),
       child: BlocBuilder<OrderCubit, OrderStates>(
         builder: (context, state) {

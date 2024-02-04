@@ -9,7 +9,7 @@ class DeliveryPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: bgColor,
       resizeToAvoidBottomInset: true,
-      body: Column(
+      body: const Column(
         children: [
           Text('data'),
         ],

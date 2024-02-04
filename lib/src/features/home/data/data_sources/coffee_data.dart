@@ -4,7 +4,7 @@ final List<Map<String, dynamic>> coffeesData = [
     "coffeeName": "Cappuccino",
     "coffeeType": "with chocolate",
     "coffeeDescription":
-        "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo.. Read More",
+        "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo",
     "coffeeRate": "4.5",
     "coffeePrice": {
       "large": 18.63,
@@ -18,7 +18,7 @@ final List<Map<String, dynamic>> coffeesData = [
     "coffeeName": "Cappuccino",
     "coffeeType": "with Oat Milk",
     "coffeeDescription":
-        "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo.. Read More",
+        "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5 A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5 A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5 A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5 A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5 A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5 A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5 A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5 ",
     "coffeeRate": "4.5",
     "coffeePrice": {
       "large": 9.36,
@@ -32,7 +32,7 @@ final List<Map<String, dynamic>> coffeesData = [
     "coffeeName": "Cappuccino",
     "coffeeType": "with chocolate",
     "coffeeDescription":
-        "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo.. Read More",
+        "A cappuccino is an approximately 150 ml (5 oz) beverage A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the A cappuccino is an approximately 150 ml (5",
     "coffeeRate": "4.5",
     "coffeePrice": {
       "large": 17.32,
@@ -42,11 +42,11 @@ final List<Map<String, dynamic>> coffeesData = [
     "coffeeImage": "coffee2.png",
   },
   {
-    "coffeeId": 3,
+    "coffeeId": 4,
     "coffeeName": "cuppuccino",
     "coffeeType": "with chocolate",
     "coffeeDescription":
-        "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo.. Read More",
+        "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the foA cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo",
     "coffeeRate": "4.5",
     "coffeePrice": {
       "large": 12.43,

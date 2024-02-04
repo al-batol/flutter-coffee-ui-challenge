@@ -20,7 +20,7 @@ class BuildRowStar extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Icon(
+        const Icon(
           Icons.star,
           color: Colors.yellow,
         ),
@@ -31,7 +31,7 @@ class BuildRowStar extends StatelessWidget {
               style: TextStyle(
                 fontSize: setFontSize(12),
                 fontWeight: FontWeight.w600,
-                color: Color(0xFF2F2D2C),
+                color: const Color(0xFF2F2D2C),
               ),
               children: [
                 WidgetSpan(
@@ -42,19 +42,19 @@ class BuildRowStar extends StatelessWidget {
                   style: TextStyle(
                     fontSize: setFontSize(10),
                     fontWeight: FontWeight.w600,
-                    color: Color(0xFF9B9B9B),
+                    color: const Color(0xFF9B9B9B),
                   ),
                 )
               ]),
         ),
-        Spacer(),
+        const Spacer(),
         Container(
           height: setWidth(60),
           width: setWidth(60),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(setWidth(20)),
             image:
-                DecorationImage(image: AssetImage(beanIcon), fit: BoxFit.cover),
+                const DecorationImage(image: AssetImage(beanIcon), fit: BoxFit.cover),
           ),
         ),
         SizedBox(width: setWidth(4)),
@@ -63,7 +63,7 @@ class BuildRowStar extends StatelessWidget {
           width: setWidth(60),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(setWidth(20)),
-            image: DecorationImage(
+            image: const DecorationImage(
                 image: AssetImage(packagingIcon), fit: BoxFit.cover),
           ),
         ),

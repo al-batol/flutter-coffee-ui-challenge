@@ -9,6 +9,7 @@ class DetailCubit extends Cubit<DetailStates> {
           coffeeSize: 1,
           isFavorite: false,
           shouldAnimateButton: false,
+          willNotReadMore: true,
         ));
 
   void toggleFavorite(bool isFavorite) {
@@ -21,5 +22,9 @@ class DetailCubit extends Cubit<DetailStates> {
 
   void toggleAnimatedButton(bool shouldAnimate) {
     emit(state.copyWith(shouldAnimateButton: !shouldAnimate));
+  }
+
+  void toggleReadMore() {
+    emit(state.copyWith(willNotReadMore: !state.willNotReadMore));
   }
 }

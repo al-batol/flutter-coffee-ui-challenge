@@ -23,7 +23,6 @@ const String favoriteIcon = "$_icons/favorite.svg";
 // images
 const String images = 'assets/images';
 const String bigCoffeeImage = "$images/image 8.png";
-const String cappuccinoImage = "$images/Rectangle 1706.png";
 const String girlImage = "$images/Image.png";
 const String coffeeOneImage = "$images/coffee1.png";
 const String coffeeTwoImage = "$images/coffee1.png";

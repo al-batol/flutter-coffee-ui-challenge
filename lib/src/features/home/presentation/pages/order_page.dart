@@ -73,7 +73,11 @@ class OrderPage extends StatelessWidget {
                 const Divider(color: lightGreyColor),
                 SizedBox(height: setHeight(15)),
                 // add or remove
-                const BuildIncreaseDecreaseItem(),
+                BuildIncreaseDecreaseItem(
+                  coffeeName: coffee.coffeeName,
+                  coffeeType: coffee.coffeeType,
+                  coffeeImage: '$images/${coffee.coffeeImage}',
+                ),
                 SizedBox(height: setHeight(15)),
                 const Divider(color: lightGreyColor, thickness: 4),
                 SizedBox(height: setHeight(20)),

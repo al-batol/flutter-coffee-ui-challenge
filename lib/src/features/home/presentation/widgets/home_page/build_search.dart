@@ -25,7 +25,7 @@ class BuildSearch extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(setWidth(context, 16)),
-        color: Color(0xFF313131),
+        color: const Color(0xFF313131),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -41,7 +41,7 @@ class BuildSearch extends StatelessWidget {
                   style: TextStyle(
                     fontSize: setFontSize(context, 12),
                     fontWeight: FontWeight.w600,
-                    color: Color(0xFF989898),
+                    color: const Color(0xFF989898),
                     letterSpacing: setFontSize(context, 0.12),
                   ),
                 ),

@@ -7,7 +7,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class BuildIncreaseDecreaseItem extends StatelessWidget {
-  const BuildIncreaseDecreaseItem({Key? key}) : super(key: key);
+  final String coffeeName;
+  final String coffeeType;
+  final String coffeeImage;
+
+  const BuildIncreaseDecreaseItem({
+    Key? key,
+    required this.coffeeName,
+    required this.coffeeType,
+    required this.coffeeImage,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,11 +37,11 @@ class BuildIncreaseDecreaseItem extends StatelessWidget {
       children: [
         Row(
           children: [
-            const BuildCardImage(isSmall: true),
+            BuildCardImage(isSmall: true, image: coffeeImage),
             SizedBox(width: setWidth(12)),
             BuildParentChildText(
-              parentText: 'Cappucino',
-              childText: 'with Chocolate',
+              parentText: coffeeName,
+              childText: coffeeType,
               spacing: setHeight(4),
             ),
           ],
